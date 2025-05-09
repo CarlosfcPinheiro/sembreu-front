@@ -1,0 +1,38 @@
+/* Custom components styles */
+
+@layer components {
+    .rect {
+        padding: 2rem;
+        padding-inline: 5rem;
+        text-align: center;
+        border: 0.1rem solid #1f1f1f;
+        border-radius: 0.75rem;
+        font-size: 24px;
+    }
+
+    .start {
+        padding: 2rem;
+        padding-inline: 4rem;
+        border: 0.1rem solid #1f1f1f;
+        border-radius: 2rem;
+        margin-top: 2rem;
+        font-size: 24px;
+    }
+
+    .back {
+        padding: 0.5rem;
+        padding-inline: 4rem;
+        border: 0.1rem solid #1f1f1f;
+        background-color: #1f1f1f;
+        border-radius: 0.75rem;
+        margin-top: 2rem;
+        font-size: 24px;
+        color: #ededed;
+    }
+
+    .device {
+        border: 0.2rem solid #1f1f1f;
+        padding: 0.5rem;
+        border-radius: 0.5rem;
+    }
+}
