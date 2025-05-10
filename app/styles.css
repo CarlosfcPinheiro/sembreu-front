@@ -2,21 +2,29 @@
 
 @layer components {
     .rect {
-        padding: 2rem;
-        padding-inline: 5rem;
+        padding: 1.5rem;
+        padding-inline: 8rem;
         text-align: center;
-        border: 0.1rem solid #1f1f1f;
-        border-radius: 0.75rem;
+        border: 0.3rem solid #1f1f1f;
+        border-radius: 3rem;
         font-size: 24px;
+
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 0.5rem;
+        font-weight: bolder;
     }
 
     .start {
-        padding: 2rem;
+        padding: 1.5rem;
         padding-inline: 4rem;
-        border: 0.1rem solid #1f1f1f;
-        border-radius: 2rem;
+        border-radius: 2.5rem;
         margin-top: 2rem;
         font-size: 24px;
+        background-color: #0017AF;
+        color: #ededed;
     }
 
     .back {
